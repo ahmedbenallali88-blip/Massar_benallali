@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>{{ t.login_title }}</h2>
+<form method="post">
+    <input type="text" name="username" placeholder="{{ t.username }}">
+    <button type="submit">{{ t.login }}</button>
+</form>
+{% endblock %}
