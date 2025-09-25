@@ -1,0 +1,11 @@
+CREATE TABLE points (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user TEXT,
+    subject TEXT,
+    score INTEGER
+);
+
+INSERT INTO points (user, subject, score) VALUES
+('ahmed', 'رياضيات', 18),
+('ahmed', 'علوم', 16),
+('ahmed', 'فرنسية', 14);
