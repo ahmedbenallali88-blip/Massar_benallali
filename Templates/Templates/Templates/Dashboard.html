@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>{{ t.welcome }} {{ user }}</h2>
+<table>
+    <tr><th>{{ t.subject }}</th><th>{{ t.score }}</th></tr>
+    {% for p in points %}
+    <tr><td>{{ p['subject'] }}</td><td>{{ p['score'] }}</td></tr>
+    {% endfor %}
+</table>
+{% endblock %}
