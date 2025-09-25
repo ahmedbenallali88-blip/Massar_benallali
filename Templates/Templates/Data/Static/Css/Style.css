@@ -1,0 +1,25 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0055aa;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+td, th {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
